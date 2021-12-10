@@ -84,7 +84,7 @@ html {
     font-style: italic;
 }
 
-#report h2, #report h3 {
+#report h1, #report h2, #report h3 {
     border-bottom: 2px solid darkslategray;
 }
 
