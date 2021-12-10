@@ -1,11 +1,22 @@
 .container {
-    text-align: center;
     font-family: 'Lexend', sans-serif;
 
     width: 95%;
-    max-width: 480px;
-    font-size: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#homepage.container {
+    max-width: 480px;
+}
+
+#report.container {
+    max-width: 540px;
+}
+
+#homepage {
+    font-size: 1.25rem;
+    text-align: center;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -27,4 +38,57 @@
 
 html {
     background-color: #ffe6f7;
+}
+
+#report img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: block;
+    padding: 5px 0;
+    border-radius: .75rem;
+    filter: drop-shadow(5px 5px 9px #22222299);
+}
+
+.quote {
+    border-left: 4px solid purple;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+
+.quote p {
+    padding: 0;
+    margin: 6px 0;
+}
+
+.quote a {
+    color: darkviolet;
+}
+
+.quote .quote {
+    border-color: #6c006c;
+}
+
+.code {
+    font-weight: 600;
+    font-family: monospace;
+    background-color: lightgray;
+    padding: 0 4px;
+}
+
+.subtext {
+    color: #666;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#report h2, #report h3 {
+    border-bottom: 2px solid darkslategray;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid purple;
 }
