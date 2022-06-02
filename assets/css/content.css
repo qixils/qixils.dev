@@ -1,0 +1,84 @@
+html {
+  color: #222222;
+  font-size: 13pt;
+}
+
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {color: dimgrey;}
+h1, h2, h3, h4, h5, h6 {color: black;}
+h1:before{content: "# ";}
+h2:before{content: "## ";}
+h3:before{content: "### ";}
+h4:before{content: "#### ";}
+h5:before{content: "##### ";}
+h6:before{content: "###### ";}
+
+#container {
+  margin: auto;
+  padding: 0;
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  gap: .5em;
+}
+
+.portfolio-gallery .card {
+  padding: .75em;
+  background-color: #c294c7;
+  flex: 1 0 25em;
+}
+
+.portfolio-gallery .card p {
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-gallery .card .title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.portfolio-gallery .card .subtitles {
+  /* add some padding and a left border a la discord quotes? */
+  background-color: #c294c7;
+  color: #333;
+  font-size: 12pt;
+  float: right;
+  margin: 0 0 .2em .4em;
+  border-collapse: collapse;
+}
+
+.portfolio-gallery .card .subtitles th {
+  text-align: left;
+  padding: .2em .4em;
+  border: 1px solid #333;
+}
+.portfolio-gallery .card .subtitles td {
+  text-align: right;
+  padding: .2em .4em;
+  border: 1px solid #333;
+}
+
+.portfolio-gallery .card .description {
+
+}
+@media (max-width: 30em) {
+  .portfolio-gallery .card .subtitles {
+    float: none;
+    margin: .2em auto;
+  }
+
+  .portfolio-gallery .card {
+    padding: .5em;
+    flex: 1 0 20em;
+  }
+
+  .portfolio-gallery .card .title {
+    text-align: center;
+  }
+
+  html {
+    font-size: 12pt;
+  }
+}
