@@ -15,18 +15,18 @@ h6:before{content: "###### ";}
 #container {
   padding: 0;
   margin: auto auto 1em;
+  max-width: 50em;
 }
 
 .portfolio-gallery {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   gap: .5em;
 }
 
 .portfolio-gallery .card {
   padding: .75em;
   background-color: #edcff5;
-  flex: 1 0 25em;
 }
 
 .portfolio-gallery .card p {
@@ -55,7 +55,6 @@ h6:before{content: "###### ";}
 @media (max-width: 30em) {
   .portfolio-gallery .card {
     padding: .5em;
-    flex: 1 0 20em;
   }
 
   .portfolio-gallery .card .title {
