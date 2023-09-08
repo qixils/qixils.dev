@@ -8,11 +8,11 @@
   margin-right: auto;
 }
 
-#homepage.container {
+#homepage #container {
   max-width: 480px;
 }
 
-#report.container {
+#report #container {
   max-width: 600px;
 }
 
@@ -73,8 +73,9 @@ html {
     margin: 6px 0;
 }
 
-.quote a {
-    color: darkviolet;
+a, a::after {
+    color: #791888;
+    text-decoration: underline;
 }
 
 .quote .quote {

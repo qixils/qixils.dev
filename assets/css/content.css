@@ -13,8 +13,8 @@ h5:before{content: "##### ";}
 h6:before{content: "###### ";}
 
 #container {
-  margin: auto;
   padding: 0;
+  margin: auto auto 1em;
 }
 
 .portfolio-gallery {
@@ -25,7 +25,7 @@ h6:before{content: "###### ";}
 
 .portfolio-gallery .card {
   padding: .75em;
-  background-color: #c294c7;
+  background-color: #edcff5;
   flex: 1 0 25em;
 }
 
@@ -39,36 +39,20 @@ h6:before{content: "###### ";}
   font-weight: bold;
 }
 
-.portfolio-gallery .card .subtitles {
-  /* add some padding and a left border a la discord quotes? */
-  background-color: #c294c7;
-  color: #333;
-  font-size: 12pt;
-  float: right;
-  margin: 0 0 .2em .4em;
-  border-collapse: collapse;
+.portfolio-gallery .card .subtitle {
+  font-size: 11pt;
+  color: #3f3f3f;
 }
 
-.portfolio-gallery .card .subtitles th {
-  text-align: left;
-  padding: .2em .4em;
-  border: 1px solid #333;
-}
-.portfolio-gallery .card .subtitles td {
-  text-align: right;
-  padding: .2em .4em;
-  border: 1px solid #333;
+.portfolio-gallery .card .subtitle a::after {
+  content: " ↗";
 }
 
 .portfolio-gallery .card .description {
 
 }
-@media (max-width: 30em) {
-  .portfolio-gallery .card .subtitles {
-    float: none;
-    margin: .2em auto;
-  }
 
+@media (max-width: 30em) {
   .portfolio-gallery .card {
     padding: .5em;
     flex: 1 0 20em;
