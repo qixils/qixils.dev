@@ -1,43 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script setup lang="ts">
+useSeoMeta({
+  title: "Portfolio",
+  ogTitle: "Portfolio",
+  description: "Curated collection of software I've created.",
+  ogDescription: "Curated collection of software I've created.",
+})
+</script>
 
-  <title>Portfolio :: qixils.dev</title>
-
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/content.css">
-  <!--<link rel="stylesheet" href="/assets/css/print.css" media="print">-->
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
-
-  <meta name="format-detection" content="telephone=no">
-  <meta name="description" content="Portfolio of a full-stack developer with a passion for creating unique experiences.">
-  <meta property="og:site_name" content="qixils.dev">
-  <meta property="og:title" content="Portfolio">
-  <meta property="og:description" content="Portfolio of a full-stack developer with a passion for creating unique experiences.">
-  <meta property="og:image" content="https://i.qixils.dev/icon-512.png">
-  <meta property="og:image:alt" content="A pink silhouette of a cat face.">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary"> <!-- summary or summary_large_image -->
-  <meta name="twitter:dnt" content="on">
-  <meta property="og:url" content="https://qixils.dev/portfolio">
-  <link rel="canonical" href="https://qixils.dev/portfolio">
-
-  <link rel="icon" href="https://i.qixils.dev/favicon.ico">
-  <link rel="icon" href="https://i.qixils.dev/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="https://i.qixils.dev/icon-180.png">
-  <link rel="manifest" href="/my.webmanifest">
-  <meta name="theme-color" content="#FFE6F7">
-</head>
-<body>
-  <div id="container">
-    <a href="/"><img src="https://i.qixils.dev/wordmark.svg" alt="qixils.dev wordmark" id="wordmark-header"></a>
+<template>
+  <div id="container" class="container">
     <h1>Portfolio</h1>
     <p>
       Hi! Welcome to my developer portfolio.
@@ -50,7 +21,7 @@
       When I first started out as a developer, creating websites always seemed like a daunting task. However, with the
       advent of web frameworks like <a href="https://react.dev/">React</a>, <a href="https://vuejs.org/">Vue</a>, and
       <a href="https://svelte.dev/">Svelte</a>, I've learned that developing a website can be fun and easy, so much so
-      that I can now create a small website for a project in only a weekend.
+      that I can now create a small website for a project (like this one!) in only a weekend.
     </p>
 
     <div class="portfolio-gallery">
@@ -80,7 +51,7 @@
           Written in JavaScript/React, Python, and Java.
           Developed in 2022.
           <a target="_blank" href="https://github.com/qixils/htsea">Source Code</a>,
-          <a target="_blank" href="https://cdn.discordapp.com/attachments/282238591248367626/959656618507784282/unknown.png">Screenshot</a>
+          <a target="_blank" href="https://i.qixils.dev/HTSea.png">Screenshot</a>
         </p>
         <p class="description">
           HTSea is an April Fool's Day project created by the staff of
@@ -283,5 +254,46 @@
       </div>
     </div>
   </div>
-</body>
-</html>
+</template>
+
+<style scoped>
+.portfolio-gallery {
+  display: flex;
+  flex-flow: column;
+  gap: .5em;
+}
+
+.portfolio-gallery .card {
+  padding: .75em;
+  background-color: #edcff5;
+}
+
+.portfolio-gallery .card p {
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-gallery .card .title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.portfolio-gallery .card .subtitle {
+  font-size: 11pt;
+  color: #3f3f3f;
+}
+
+.portfolio-gallery .card .subtitle a::after {
+  content: " ↗";
+}
+
+@media (max-width: 30em) {
+  .portfolio-gallery .card {
+    padding: .5em;
+  }
+
+  .portfolio-gallery .card .title {
+    text-align: center;
+  }
+}
+</style>
