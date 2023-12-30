@@ -13,7 +13,7 @@ useSeoMeta({
     <ul>
       <li><a rel="me" href="https://github.com/qixils">GitHub</a></li>
       <li><a rel="me" href="https://youtube.com/@lexikiq">YouTube</a></li>
-      <li><a rel="me" href="https://twitch.tv/lexikiq">Twitch</a></li>
+      <li><a rel="me" href="https://twitch.tv/lexikiq">Twitch</a> (<a rel="me" href="https://youtube.com/@qixils">VODs</a>)</li>
       <li><a rel="me" href="https://gitlab.com/lexikiq">GitLab</a> (inactive)</li>
     </ul>
     <h1>Find my socials</h1>
