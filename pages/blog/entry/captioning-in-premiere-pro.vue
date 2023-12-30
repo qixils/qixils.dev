@@ -63,7 +63,7 @@
     <p>
       If your video just has a single caption track without text formatting, then on the
       <b>Export</b> tab you just have to enable <b>Captions</b> and set <b>Export Options</b>
-      to <b>Create Sidecar File</b>.
+      to <b>Create Sidecar File</b>. That's it, you're done!
     </p>
     <h3 id="exporting-intermediate">Intermediate</h3>
     <ol>
@@ -81,18 +81,18 @@
       <li>Convert the track to ASS format with <b>File -> Save Subtitles as...</b></li>
       <li>
         If you used multiple subtitle tracks:
-        <ul>
+        <ol type="a">
           <li>
             Drag and drop one of the other exported subtitle tracks onto Aegisub,
             select every line, and press Ctrl+C
           </li>
           <li>Return to the .ass file and press Ctrl+V (and Ctrl+S to save)</li>
           <li>Repeat as necessary with other subtitle tracks</li>
-        </ul>
+        </ol>
       </li>
       <li><i>
         [Here I originally suggested exporting to <b>.stl</b> but it does not seem to be
-        aswell-supported as I thought, so you'll need to follow
+        as well-supported as I thought, so you'll need to follow
         the</i> Advanced <i>section instead for now.]
       </i></li>
     </ol>
@@ -113,7 +113,7 @@
         Note that the app will try to mimic the Aegisub preview as closely as possible, meaning by
         default it will not have any background like standard YouTube subtitles.
         If you want to add a transparent background:
-        <ol>
+        <ol type="a">
           <li>Go to <b>Subtitle -> Style Manager</b></li>
           <li>Select <b>Default</b> on the right and click <b>Edit</b></li>
           <li>Enable <b>Opaque box</b> and set <b>Shadow</b> to 0</li>
@@ -122,7 +122,7 @@
           <li>
             Download
             <a href="https://gist.github.com/qixils/7fb8f74ad53220550b7a3ad4259c999c">this script</a>
-            (click Raw and then right click -> <b>Save Page As...</b>)
+            (click <b>Raw</b> and then right click -> <b>Save Page As...</b>)
           </li>
           <li>In Aegisub, click <b>Add</b>, then select the script</li>
           <li>Click <b>Close</b></li>
@@ -130,7 +130,7 @@
           <li>Remember Ctrl+S to save!</li>
         </ol>
       </li>
-      <li>Drag and drop the <b>.ass</b> file onto the app and click Convert</li>
+      <li>Drag and drop the <b>.ass</b> file onto the app and click <b>Convert</b></li>
     </ol>
     <h2 id="aegisub-tips">Aegisub Tips</h2>
     <h3 id="aegisub-styles">Styles</h3>
@@ -143,7 +143,7 @@
     </p>
     <p>
       To apply a style, select it in the style dropdown above the text field
-      (<a href="https://i.imgur.com/MV9Qnyl.png">example</a>).
+      (<a href="https://i.qixils.dev/aegisub-apply-style.png">example</a>).
       This can be done with multiple selected lines to change them all at once.
     </p>
     <h2 id="uploading">Uploading to YouTube</h2>
