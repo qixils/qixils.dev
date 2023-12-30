@@ -37,5 +37,9 @@ useSeoMeta({
       Here's a preview of the latest post:
     </p>
     <BlogPreview :blog="sorted[0]" />
+    <p>
+      Finally, you can find links to all my social media accounts
+      <NuxtLink to="/socials">here</NuxtLink>.
+    </p>
   </div>
 </template>
