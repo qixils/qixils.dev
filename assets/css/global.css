@@ -1,0 +1,15 @@
+html {
+    font-family: 'Lexend', sans-serif;
+}
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f7;
+}
+
+.container {
+    max-width: 50em;
+    margin: 0 auto;
+}
