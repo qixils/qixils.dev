@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <NuxtLayout name="blog">
     <p>
       If you've ever tried to do anything remotely fancy with subtitles in Premiere Pro, such as
       formatting your text or displaying multiple subtitles at once, you've probably figured out
@@ -155,5 +155,5 @@
       <li>Select your subtitle file (<b>.ytt</b> / <b>.srt</b>)</li>
       <li>Click <b>Publish</b></li>
     </ol>
-  </div>
+  </NuxtLayout>
 </template>

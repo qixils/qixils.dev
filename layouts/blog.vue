@@ -21,7 +21,7 @@ useSeoMeta({ // TODO: is there a better way to write this?
   <div class="container">
     <h1 class="title" id="title">{{ entry.title }}</h1>
     <h4 class="subtitle" id="subtitle">{{ published }} · {{ entry.description }}</h4>
-    <NuxtPage />
+    <slot />
   </div>
 </template>
 
