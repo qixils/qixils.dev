@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import { blogs } from '~/utils/blog'
+
+const sorted = computed(() => [...blogs].sort((a, b) => b.published - a.published))
+
 useSeoMeta({
   title: 'Home',
   ogTitle: 'Home',
@@ -27,5 +31,11 @@ useSeoMeta({
       You can view my full project portfolio
       <NuxtLink to="/portfolio">here</NuxtLink>.
     </p>
+    <p>
+      You can view my blog posts for solving stupid problems
+      <NuxtLink to="/blog">here</NuxtLink>.
+      Here's a preview of the latest post:
+    </p>
+    <BlogPreview :blog="sorted[0]" />
   </div>
 </template>

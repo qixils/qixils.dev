@@ -32,6 +32,7 @@ useSeoMeta({ // TODO: is there a better way to write this?
   .subtitle {
     margin-top: 0.25em;
     font-weight: normal;
-    color: #666;
+    color: #3f3f3f;
+    font-size: .95em;
   }
 </style>
