@@ -20,7 +20,7 @@ useSeoMeta({
     <ul>
       <li><a href="https://discord.gg/tVyUQeu">Community Discord Server</a> (+ support for my projects)</li>
       <li><a rel="me" href="https://tumblr.com/qixils">Tumblr</a></li>
-      <li><a rel="me" href="https://social.vivaldi.net/@lexii">Mastodon</a></li>
+      <li><a rel="me" href="https://wetdry.world/@lexi">Mastodon</a> (<a rel="me" href="https://social.vivaldi.net/@lexii">Old</a>)</li>
       <li><a rel="me" href="https://cohost.org/lexii">cohost</a> (inactive)</li>
       <li><a rel="me" href="https://twitter.com/lexikiq">Twitter</a> (inactive)</li>
     </ul>
