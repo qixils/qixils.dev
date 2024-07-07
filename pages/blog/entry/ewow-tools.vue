@@ -23,7 +23,7 @@ const plural = (word: string, count: number): string => {
 
 <template>
   <NuxtLayout name="blog">
-    <Header tag="h1" text="Word Counter" />
+    <Header tag="h2" text="Word Counter" />
     <p>
       JavaScript port of the
       <a href="https://github.com/carykh/ewow_public_tools/blob/main/get_word_count.py">official EWOW word counter</a>.
