@@ -1,8 +1,5 @@
 html {
     font-family: 'Lexend', sans-serif;
-}
-
-html {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -16,4 +13,8 @@ html {
 
 .subtitle {
   color: #444;
+}
+
+input {
+  font-family: inherit;
 }
