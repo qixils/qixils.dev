@@ -18,10 +18,10 @@ whenever(dvd, el => {
     const screenWidth = document.body.clientWidth;
 
     if (y + dvdHeight >= screenHeight || y < 0) {
-      dirY *= -1;
+      dirY = -1 * Math.sign(dirY) * (Math.random() + 0.5);
     }
     if (x + dvdWidth >= screenWidth || x < 0) {
-      dirX *= -1;
+      dirX = -1 * Math.sign(dirX) * (Math.random() + 0.5);
     }
     x += dirX * speed;
     y += dirY * speed;
