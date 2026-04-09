@@ -12,14 +12,14 @@ useSeoMeta({
     <h1>Portfolio</h1>
     <p>
       Hi! Welcome to my developer portfolio.
-      Here you'll find most of my completed projects from the past few years.
+      Here you'll find most of my major completed projects from the past few years.
     </p>
 
     <h2>Websites</h2>
     <p>
       Full-stack web development is my greatest passion,
       ranging from traditional websites
-      to less common uses like Electron apps and livestreaming overlays.
+      to less common uses like Electron apps and NodeCG livestreaming overlays.
     </p>
 
     <div class="portfolio-gallery">
@@ -27,7 +27,7 @@ useSeoMeta({
       <div class="card">
         <p class="title">Projects @ Crowd Control</p>
         <p class="subtitle">
-          Written in TypeScript with Electron, Vue, and Trpc.
+          Written in TypeScript with Electron, Vue, and tRPC.
           Employed from 2024-present.
           <a target="_blank" href="https://crowdcontrol.live">Homepage</a>
         </p>
@@ -35,21 +35,45 @@ useSeoMeta({
           After 3 years of contracting for Crowd Control's Minecraft mod,
           I was hired on part-time in 2024 and later full-time as a Full-Stack Software Architect
           for the Crowd Control desktop app, servers, and other frontends.
-          During my tenure I have created the TikTok integration and its several iterations,
+          During my tenure I have created and maintained the TikTok integration,
           multiplayer Lobbies,
           a massive public competition hosted on those Lobbies,
           Paid-only effects,
           a new subscription tier,
+          a Wrapped-style yearly recap,
+          revenue and interactivity goals for streamers,
+          several new stream overlays,
           client and server optimizations,
+          developer documentation,
           a unified component system,
           and much more.
+        </p>
+      </div>
+      <!-- Speedrun Highlights Club -->
+      <div class="card">
+        <p class="title">Speedrun Highlights Club</p>
+        <p class="subtitle">
+          Written in TypeScript/React and Go.
+          Developed in 2026.
+          <a target="_blank" href="https://github.com/qixils/highlights">Source Code</a>,
+          <a target="_blank" href="https://highlights.speedrun.club/">Website</a>
+        </p>
+        <p>
+          Following Twitch's announcement in early 2025 that they would be enacting a mass purge of
+          old video content, I discovered over 100K speedruns submitted to various speedrun sites
+          that were pending deletion and worked with arkiver of the
+          <a target="_blank" href="https://wiki.archiveteam.org/">Archive Team</a>
+          to save them along with 600K+ other popular videos.
+          The website allows anyone to easily find and download deleted videos without needing to
+          learn the intricacies of the Internet Archive's Wayback Machine storage format
+          and Twitch's web of GraphQL queries.
         </p>
       </div>
       <!-- Speedrun Archive Club -->
       <div class="card">
         <p class="title">Speedrun Archive Club</p>
         <p class="subtitle">
-          Written in TypeScript with Vue and Trpc.
+          Written in TypeScript with Vue and tRPC.
           Developed in 2025.
           <a target="_blank" href="https://github.com/qixils/SpeedrunArchiveClub">Source Code</a>,
           <a target="_blank" href="https://archive.speedrun.club/">Website</a>,
@@ -74,7 +98,7 @@ useSeoMeta({
           Developed in 2024-present.
           Demo Video
           <a target="_blank" href="https://www.youtube.com/watch?v=_6J4j3OUIvA">#1</a>,
-          <!-- <a target="_blank" href="">#2</a>, -->
+          <a target="_blank" href="https://youtu.be/xTjMVs3IWAQ">#2</a>,
           <a target="_blank" href="https://github.com/qixils/lss64">Source Code</a>
         </p>
         <p class="description">
@@ -172,11 +196,52 @@ useSeoMeta({
         <p class="subtitle">
           Written in Kotlin/Ktor and TypeScript/SvelteKit.
           Developed from 2022-2023.
-          <a target="_blank" href="https://github.com/qixils/debut/">Source Code</a>
+          <a target="_blank" href="https://github.com/qixils/debut/">Source Code</a>,
+          <a target="_blank" href="">Demo Video</a>
         </p>
         <p class="description">
           Twitch overlay extension created for my debut <a href="https://twitch.tv/lexikiq">Twitch stream</a>.
           Powered by a Kotlin backend using the Ktor framework, and a TypeScript frontend using the SvelteKit framework.
+        </p>
+      </div>
+    </div>
+
+    <h2>Games</h2>
+    <p>
+      In recent years I've taken an interest in designing large scale interactive experiences
+      and games, mostly to amuse my friends with on April 1st, though that's not to say
+      that any of these are mere jokes as they often spend months in planning and development.
+    </p>
+    <div class="portfolio-gallery">
+      <!-- rings -->
+      <div class="card">
+        <p class="title">Rings</p>
+        <p class="subtitle">
+          Written in Godot with GDScript.
+          Developed in 2026.
+          <a target="_blank" href="https://lexikiq.itch.io/rings">Download</a>
+        </p>
+        <p class="description">
+          Created for my friends' April Fools, this game allows a Discord or Twitch chat
+          to control and rescue a character lost in space by solving puzzles across varying mediums.
+          I designed and lead the programming on the game, with some assistance on the
+          art, music, and programming.
+        </p>
+      </div>
+      <!-- demowocracy -->
+      <div class="card">
+        <div class="title">Democracy</div>
+        <p class="subtitle">
+          Written in Kotlin.
+          Developed in 2024.
+          <a target="_blank" href="https://github.com/qixils/demowocwacy">Source Code</a>
+        </p>
+        <p class="description">
+          Created for my friends' April Fools, this bot inspired by Blaseball
+          manages an automated election cycle which
+          allows users to pass one of 39 pre-written "laws" to change something about the server,
+          such as its icon, moderation rules, bots, nicknames, colors, minigames, and more.
+          It was updated with new laws in 2025.
         </p>
       </div>
     </div>
@@ -192,14 +257,15 @@ useSeoMeta({
         <p class="title">Minecraft Crowd Control</p>
         <p class="subtitle">
           Written in Java.
-          <a href="https://mccc.qixils.dev/">Website</a> written in TypeScript/Nuxt.
+          <a href="https://mccc.qixils.dev/">Website</a> written in TypeScript/Vue.
           Developed from 2021-present.
           <a target="_blank" href="https://github.com/qixils/minecraft-crowdcontrol">Source Code</a>
         </p>
         <p class="subtitle"></p>
         <p class="description">
-          Developed for <a href="https://crowdcontrol.live">crowdcontrol.live</a>, this Minecraft mod
-          targeting several major modding frameworks
+          Developed originally as a personal project
+          and later professionally for <a href="https://crowdcontrol.live">crowdcontrol.live</a>,
+          this Minecraft mod targeting several major modding frameworks
           (including <a href="https://papermc.io/">Paper</a>,
           <a href="https://fabricmc.net/">Fabric</a>,
           and <a href="https://neoforged.net/">NeoForge</a>)
@@ -224,7 +290,8 @@ useSeoMeta({
           <a href="https://github.com/ProjectEdenGG/Nexus/blob/a183e74abbad7b76b45ddc990b975be8c816149b/src/main/java/gg/projecteden/nexus/features/minigames/models/mechanics/multiplayer/teams/TeamMechanic.java#L49-L176">automated voice channel moving</a>,
           <a href="https://github.com/ProjectEdenGG/Nexus/blob/a183e74abbad7b76b45ddc990b975be8c816149b/src/main/java/gg/projecteden/nexus/features/minigames/models/mechanics/multiplayer/teams/TeamMechanic.java#L449-L581">automated team balancing</a>,
           <a href="https://github.com/ProjectEdenGG/Nexus/blob/a183e74abbad7b76b45ddc990b975be8c816149b/src/main/java/gg/projecteden/nexus/features/minigames/models/Minigamer.java#L415-L443">custom health mechanics</a>,
-          and <a href="https://github.com/ProjectEdenGG/Nexus/tree/a183e74abbad7b76b45ddc990b975be8c816149b/src/main/java/gg/projecteden/nexus/features/minigames/modifiers">minigame modifiers</a>.
+          <a href="https://github.com/ProjectEdenGG/Nexus/tree/a183e74abbad7b76b45ddc990b975be8c816149b/src/main/java/gg/projecteden/nexus/features/minigames/modifiers">minigame modifiers</a>,
+          and more.
         </p>
       </div>
       <!-- Mini Mods -->
@@ -261,42 +328,11 @@ useSeoMeta({
       </div>
     </div>
 
-    <h2>Discord</h2>
+    <h2>Other</h2>
     <p>
-      This chatting platform helps me keep in touch with many of my closest friends,
-      so throughout the years I've created several tools and games to enhance
-      my and my friends' experience.
+      I've worked on so many types of projects that some just don't quite fit in any other boxes.
     </p>
     <div class="portfolio-gallery">
-      <!-- Hidden "Rule" Game -->
-      <div class="card">
-        <div class="title">Hidden "Rule" Game</div>
-        <p class="subtitle">
-          Written in Kotlin.
-          Developed in 2025.
-          <a target="_blank" href="https://github.com/qixils/hidden-rule-game">Source Code</a>
-        </p>
-        <p class="description">
-          Created for my friends' April Fools, this bot assigns secret rules to chatters
-          which must be guessed by other chatters.
-        </p>
-      </div>
-      <!-- demowocracy -->
-      <div class="card">
-        <div class="title">Democracy</div>
-        <p class="subtitle">
-          Written in Kotlin.
-          Developed in 2024.
-          <a target="_blank" href="https://github.com/qixils/demowocwacy">Source Code</a>
-        </p>
-        <p class="description">
-          Created for my friends' April Fools, this bot inspired by Blaseball
-          manages an automated election cycle which
-          allows users to pass one of 39 pre-written "laws" to change something about the server,
-          such as its icon, moderation rules, bots, nicknames, colors, minigames, and more.
-          It was updated with new laws in 2025.
-        </p>
-      </div>
       <!-- semicolon -->
       <div class="card">
         <p class="title">Semicolon</p>
@@ -313,20 +349,6 @@ useSeoMeta({
           configurations, integrates with numerous third-party APIs such as
           <a href="https://perspectiveapi.com/">Perspective</a> to assist with real-time moderation, and features a
           robust localization system which allows the bot to be used by users of any language.
-        </p>
-      </div>
-      <!-- SOTPAL -->
-      <div class="card">
-        <p class="title">SOTPAL</p>
-        <p class="subtitle">
-          Written in Java.
-          Developed in 2022.
-          <a target="_blank" href="https://github.com/qixils/SOTPAL">Source Code</a>
-        </p>
-        <p class="description">
-          This simple Discord bot created over the span of a few days allows users to play games of
-          Some Of These People Are Lying and was inspired by
-          <a href="https://www.youtube.com/playlist?list=PLfx61sxf1Yz2I-c7eMRk9wBUUDCJkU7H0">this series</a>.
         </p>
       </div>
     </div>
