@@ -39,6 +39,7 @@ useSeoMeta({
           multiplayer Lobbies,
           a massive public competition hosted on those Lobbies,
           Paid-only effects,
+          gifted purchases,
           a new subscription tier,
           a Wrapped-style yearly recap,
           revenue and interactivity goals for streamers,
