@@ -61,6 +61,7 @@ useSeoMeta({
         </p>
         <p>
           View improving and up-and-coming runners on speedrun.com leaderboards.
+          Designed to highlight and support newcomers to a speedrunning community.
         </p>
       </div>
       <!-- Speedrun Archive Club -->
