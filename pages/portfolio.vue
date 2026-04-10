@@ -60,14 +60,7 @@ useSeoMeta({
           <a target="_blank" href="https://highlights.speedrun.club/">Website</a>
         </p>
         <p>
-          Following Twitch's announcement in early 2025 that they would be enacting a mass purge of
-          old video content, I discovered over 100K speedruns submitted to various speedrun sites
-          that were pending deletion and worked with arkiver of the
-          <a target="_blank" href="https://wiki.archiveteam.org/">Archive Team</a>
-          to save them along with 600K+ other popular videos.
-          The website allows anyone to easily find and download deleted videos without needing to
-          learn the intricacies of the Internet Archive's Wayback Machine storage format
-          and Twitch's web of GraphQL queries.
+          View improving and up-and-coming runners on speedrun.com leaderboards.
         </p>
       </div>
       <!-- Speedrun Archive Club -->
